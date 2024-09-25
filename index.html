@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portal Academico UPeU</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* General */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        /* Cabecera */
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Sección Inicio */
+        section#inicio {
+            background-color: #ffcc00;
+            /* Amarillo */
+            color: #333;
+            padding: 30px 0;
+            text-align: center;
+        }
+
+        section#inicio h2 {
+            font-size: 2em;
+        }
+
+        section#inicio p {
+            font-size: 1.2em;
+        }
+
+        /* Sección Biografía */
+        section#biografia {
+            background-color: #4CAF50;
+            /* Verde */
+            color: #fff;
+            padding: 30px 0;
+            text-align: center;
+        }
+
+        section#biografia h2 {
+            font-size: 2em;
+        }
+
+        section#biografia p {
+            font-size: 1.1em;
+        }
+
+        /* Sección Habilidades */
+        section#habilidades {
+            background-color: #2196F3;
+            /* Azul */
+            color: #fff;
+            padding: 30px 0;
+            text-align: center;
+        }
+
+        section#habilidades h2 {
+            font-size: 2em;
+        }
+
+        section#habilidades ul {
+            list-style-type: none;
+        }
+
+        section#habilidades ul li {
+            font-size: 1.1em;
+            margin-bottom: 10px;
+        }
+
+        /* Sección Proyectos */
+        section#proyectos {
+            background-color: #ff5722;
+            /* Naranja */
+            color: #fff;
+            padding: 30px 0;
+            text-align: center;
+        }
+
+        section#proyectos h2 {
+            font-size: 2em;
+        }
+
+        section#proyectos ul {
+            list-style-type: none;
+        }
+
+        section#proyectos ul li {
+            font-size: 1.1em;
+            margin-bottom: 10px;
+        }
+
+        /* Sección Contacto */
+        section#contacto {
+            background-color: #33d6c0da;
+            /* Púrpura */
+            color: #881b1b;
+            padding: 30px 0;
+            text-align: center;
+        }
+
+        section#contacto h2 {
+            font-size: 2em;
+        }
+
+        section#contacto p {
+            font-size: 1.1em;
+        }
+
+        section#contacto ul {
+            list-style-type: none;
+        }
+
+        section#contacto ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Pie de página */
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        footer p {
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Cabecera / Menú de Navegación -->
+    <header>
+        <div class="container">
+            <h1>Yeny Magali Huancco CCapa</h1>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#biografia">Biografía</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sección de Inicio -->
+    <section id="inicio">
+        <div class="container">
+            <h2>Bienvenidos a mi página web personal</h2>
+            <p>En esta página encontrarás información sobre mi trayectoria, habilidades y proyectos. ¡Gracias por
+                visitarme!</p>
+        </div>
+        <img src="Guitarra...jpg!d" alt="Descripción de la imagen"
+            style="width: 100%; max-height: 200px; object-fit: cover;">
+
+    </section>
+
+    <!-- Sección de Biografía -->
+    <section id="biografia">
+        <div class="container">
+            <h2>Mi Biografía</h2>
+            <p>Soy un profesional en administración con experiencia en la gestión de proyectos y el desarrollo de
+                estrategias de negocios. Me apasiona la tecnología y la innovación.</p>
+        </div>
+
+        <video width="640" height="360" controls>
+            <source src="mi-video.mp4" type="video/mp4"> <!-- Cambia 'mi-video.mp4' por el nombre de tu archivo -->
+            Tu navegador no soporta el elemento de video.
+        </video>
+
+    </section>
+
+
+    <!-- Sección de Habilidades -->
+    <section id="habilidades">
+        <div class="container">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>Gestión de Proyectos</li>
+                <li>Desarrollo Web</li>
+                <li>Microsoft Office (Word, Excel, PowerPoint)</li>
+                <li>Edición de Imágenes (Canva)</li>
+            </ul>
+
+            <iframe width="853" height="480" src="https://www.youtube.com/embed/wNrdWOLmIL4"
+                title="Dios poderoso [En Vivo]" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+            <iframe width="853" height="480" src="https://www.youtube.com/embed/UdZSJOpPm7I?list=RDwNrdWOLmIL4"
+                title="Hay Libertad - Gracia Soberana Música (Video Oficial)" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+            <iframe width="853" height="480"
+                src="https://www.youtube.com/embed/ihavJ0YmhoU?list=RDGMEMMib4QpREwENw3_jAc0YgNw"
+                title="MI PRINCESA  | JOSH MORALES, WALESKA MORALES | VIDEO OFICIAL" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+            <iframe width="853" height="480"
+                src="https://www.youtube.com/embed/9TIZMohIYqQ?list=RDGMEMMib4QpREwENw3_jAc0YgNw"
+                title="Way Maker - Spanish (traducción oficial)" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <!-- Sección de Proyectos -->
+    <section id="proyectos">
+        <div class="container">
+            <h2>Proyectos</h2>
+            <ul>
+                <li><strong>Sitio Web de Empresa</strong> - Diseño y desarrollo de una web para un negocio local.</li>
+                <li><strong>Sistema de Gestión</strong> - Implementación de software para mejorar la eficiencia en la
+                    administración de una empresa.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto">
+        <div class="container">
+            <h2>Contacto</h2>
+            <p>Puedes ponerte en contacto conmigo a través del siguiente correo:</p>
+            <p><strong>Correo electrónico:</strong> ejemplo@correo.com</p>
+            <p>Sígueme en mis redes sociales:</p>
+            <ul>
+                <li><a href="https://www.linkedin.com">LinkedIn</a></li>
+                <li><a href="https://www.twitter.com">Twitter</a></li>
+            </ul>
+            <a href="https://web.facebook.com/profile.php?id=100090442980296 target="_blank">
+                <img src="k.jpeg" alt="Descripción de la imagen" style="width: 100px; height: auto;">
+            </a>
+
+            <a href="https://chatgpt.com/" target="_blank">
+                <img src="chat gpt.jpeg" alt="Descripción de la imagen" style="width: 400px; height: auto;">
+            </a>
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <div class="container">
+            <p>© 2024 Mi Página Personal. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
